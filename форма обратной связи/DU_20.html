@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DU_20.css">
+</head>
+
+<body>
+    <h1>Форма обратной связи</h1>
+    <h2>Оставьте нам сообщение или задайте вопрос</h2>
+    <h4>Мы приветствует Вас на странице обратной связи, пожалуйста,  заполните все поля и нажмите кнопку ОТПРАВИТЬ.</h4>
+    <form action="/submit" method="post">
+        <p><label for="Имя">Имя:</label></p>
+       
+        <p><input type="text" id="Имя" name="Имя" required></p>
+
+        <p><label for="email">Ваш Email:</label></p>
+
+        <p><input type="email" id="email" name="email" required></p>
+
+        <p><label for="Тема сообщения">Тема сообщения</label>:</p>
+            <p> <input type="text"></p>
+
+        <p><label for="message">Текст сообщения:</label></p>
+
+        <p><textarea id="message" name="message" required></textarea></p>
+
+        <p><label for="phone">Номер телефона:</label></p>
+
+        <p><input type="tel" id="phone" name="phone" pattern="\+420 \d{3} \d{3}-\d{3}"
+                placeholder="+420 XXX XXX XXX" required></p>
+
+        <P><button type="submit">ОТПРАВИТЬ</button></P>
+
+</body>
+
+</html>

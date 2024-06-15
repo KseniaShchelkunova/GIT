@@ -1,0 +1,39 @@
+body{
+    background-full; 
+    background-image:url(1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover; /* Масштабирует изображение, чтобы оно полностью покрывало элемент */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /*Запрещает повторение изображения */
+}
+
+h1{
+    text-align:center;
+    color: #5b025b;
+    font-style: italic; /* Применение курсива */
+}
+
+h2{
+    text-align:center;
+    color: #5b025b;
+    font-style: italic; /* Применение курсива */
+}
+
+h4{
+    text-align:center;
+    color: #5b025b;
+    font-style: italic; /* Применение курсива */
+}
+
+h3{
+    text-align:center;
+    color: #5b025b;
+    font-style: italic; /* Применение курсива */
+}
+
+p{
+    text-align:center;
+    color: #5b025b;
+    font-style: italic; /* Применение курсива */ 
+}

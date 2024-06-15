@@ -1,1 +1,44 @@
-"main file CSS" 
+p {
+    color: green;
+}
+
+li {
+    color: red;
+}
+
+.zagolovok {
+    color: #038b03;
+    background-color: rgb(163, 198, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46;
+    text-align: center;
+    line-height: 2;
+}
+
+#Header {
+    font-size: 40px;
+    color: rgb(44, 227, 62);
+}
+
+h2.intro{
+    color:rgb(144, 49, 232);
+    background-color: rgb(96, 199, 255);
+    opacity: 0.5;
+}
+
+a{
+    color:cadetblue;
+}
+
+a:hover{
+    color:chartreuse
+}
+
+body{
+    background-image:url(6221097.jpg);
+}
+
+img{
+    display: inline;
+    margin: 20px auto;
+}

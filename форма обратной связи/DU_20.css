@@ -1,0 +1,102 @@
+body{
+    background-color: #f0f8ff;
+}
+
+h1{
+    color:#005f6b;
+    margin-bottom: 20px;
+    font-size: 46px;
+    text-align: center;
+    font-style: italic; /* Применение курсива */
+}
+
+h2{
+    color:#005f6b;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic; /* Применение курсива */
+}
+
+h4{
+    color:#333;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic; /* Применение курсива */
+}
+
+p{
+    text-align: center;
+}
+
+label{
+    color:#333;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic; /* Применение курсива */
+}
+
+input[type="text"] {
+    width: 50%; /* Устанавливаем ширину 100% для текстового поля */
+    height: 40px; /* Высота 40px */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 15px;
+    border: 1px solid #005f6b;
+    border-radius: 10px;
+    box-sizing: border-box;    
+}
+
+input[type="tel"] {
+    width: 50%; /* Устанавливаем ширину 100% для текстового поля */
+    height: 40px; /* Высота 40px */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 15px;
+    border: 1px solid #005f6b;
+    border-radius: 10px;
+    box-sizing: border-box;    
+}
+
+
+input[type="email"] {
+    width: 50%; /* Устанавливаем ширину 100% для поля email */
+    height: 45px; /* Высота 45px */
+    padding: 12px; /* Внутренние отступы */
+    margin-bottom: 15px;
+    border: 1px solid #005f6b;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px 20px;
+    border: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+    width: 50%;
+    background-color:rgb(169, 255, 255);
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 10px; /* Закругленные углы */
+    color:#005f6b;
+    border: 4px solid #005f6b;
+}
+
+button:hover{
+    color:rgb(205, 18, 161)
+}
+
+textarea{
+    padding: 50px 20px;
+    border: 5px;
+    border-radius:10px;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+    border-radius: 10px; /* Закругленные углы */
+    color:rgb(40, 21, 138);
+    border: 2px solid #005f6b;
+
+}
